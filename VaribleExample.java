@@ -1,23 +1,24 @@
 public class VaribleExample {
     public static void main(String[] args) {
-        char clothingSize = "s"; 
-        int websiteVisitor = 0;
-        char studentGrade = "A"
-        double = studentGPA;
-        final double Pi = 3.14;
-        char text = "t";
-        boolean test = true;
-         
-         System.out.println("clothingSize")
-         System.out.println("websiteVisitor")
-         System.out.println("studentGrade")
-         System.out.println("studentGPA")
-         System.out.println("Pi")
-         System.out.println("text")
-         System.out.println("test")
-         
-            
-        );
-    }
+        char clothingSize = 's'; 
 
+        int websiteVisitors = 0; 
+
+        char studentGrade = 'A';
+
+        double studentGPA = 4.0;
+
+        final double PI = 3.14159;
+
+        float annualExpenses = 15000.00f;
+
+        final int MONTHS_IN_YEAR = 12;
+        System.out.println("Clothing Size" + clothingSize);
+        System.out.println("Website Visitors" + websiteVisitors);
+        System.out.println("Student Grade" + studentGrade);
+        System.out.println("Student GPA" + studentGPA);
+        System.out.println("Value of Pi : " + PI);
+        System.out.println("Annual Expenses" + annualExpenses);
+        System.out.println("Months in a Year" + MONTHS_IN_YEAR);
+    }
 }
