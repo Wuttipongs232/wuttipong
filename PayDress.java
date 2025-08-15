@@ -11,11 +11,11 @@ public class PayDress {
         System.out.print("Enter discount rate ");
         double DiscountRate = input.nextDouble();
  
-        double totalCost = PricePerDress*NumberOfDresses;
-        double DiscountAmount = totalCost*DiscountRate / 100;
-        double Pay = totalCost-DiscountAmount;
+        double TotalCost = PricePerDress*NumberOfDresses;
+        double DiscountAmount = TotalCost*DiscountRate / 100;
+        double Pay = TotalCost-DiscountAmount;
         
-        System.out.println("Total cost = "+totalCost+"Baht");
+        System.out.println("Total Cost = "+TotalCost+"Baht");
         System.out.println("DiscountAmount = "+DiscountAmount+"Baht");
         System.out.println("Pay = "+ Pay +" Baht");
     }
