@@ -1,8 +1,8 @@
 public class VaribleExample {
     public static void main(String[] args) {
-        char clothingSize = 's'; 
+        char clothingSize = 's';
 
-        int websiteVisitors = 0; 
+        int websiteVisitors = 0;
 
         char studentGrade = 'A';
 
