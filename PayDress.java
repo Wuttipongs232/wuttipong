@@ -7,7 +7,7 @@ public class PayDress {
         System.out.print("Enter price per dress ");
         double PricePerDress = input.nextDouble();
         System.out.print("Enter number of dresses to buy ");
-        double NumberOfDresses = input.nextdouble();
+        double NumberOfDresses = input.nextDouble();
         System.out.print("Enter discount rate ");
         double DiscountRate = input.nextDouble();
  
