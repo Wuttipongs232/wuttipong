@@ -4,7 +4,7 @@ public class Ifshape {
   public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter Number");
+        System.out.println("Enter Number 1 or 2");
         int num = scanner.nextInt();
         if (num == 1 ) {
             System.out.print("Enter the base of the triagle");
